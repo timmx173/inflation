@@ -2,15 +2,17 @@ package com.jaketimm.inflationcalculator;
 
 public class CurrencyObject {
 	public String currencyName;
+	//sets the name of the currency object
 	public void setCurrencyName(String name)
 	{
 		this.currencyName = name;
 	}
+	//returns the name of the currency
 	public String getCurrencyName()
 	{
 		return this.currencyName;
 	}
-	
+	//returns the value of the currency, based on the specified year and the name of the currency
 	public double getCurrency(int year, String currency){
 		if (currency.equals("USD")){
 			return getInflationRateUSD(year);
