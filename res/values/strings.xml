@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inflation Calculator</string>
+    <string name="in">in</string>
+    <string name="enterYear">Enter year. . .</string>
+    <string name="enterValue">Enter value. . .</string>
+    <string name="in2">in</string>
+    <string name="isWorth">is worth</string>
+    <string name="calculate">Calculate</string>
+    <string name="action_settings">Settings</string>
+    <string name="positiveDialog">Please enter all values</string>
+    <string name="negativeDialog">Okay</string>
+    <string-array name="currency_before_array">
+        <item>USD</item>
+        <item>Euro</item>
+        <item>Yen</item>
+        <item>Pound</item>
+        <item>Ruble</item>
+        <item>Mexican Peso</item>
+        <item>Canadian Dollar</item>
+        <item>Australian Dollar</item>
+        <item>Swiss Franc</item>
+        <item>Renminbi</item>
+        <item>Rupee</item>
+        <item>Rand</item>
+        <item>South Korean Won</item>
+    </string-array>
+    
+    <string-array name="currency_after_array">
+        <item>USD</item>
+        <item>Euro</item>
+        <item>Yen</item>
+        <item>Pound</item>
+        <item>Ruble</item>
+        <item>Mexican Peso</item>
+        <item>Canadian Dollar</item>
+        <item>Australian Dollar</item>
+        <item>Swiss Franc</item>
+        <item>Renminbi</item>
+        <item>Rupee</item>
+        <item>Rand</item>
+        <item>South Korean Won</item>
+    </string-array>
+
+</resources>
