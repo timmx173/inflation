@@ -1,6 +1,7 @@
 package com.jaketimm.inflationcalculator;
 
 public class MathObject {
+	//calculates the inflation value based on year, currency, and value
 	public double doMath(String beforeCurrency, String afterCurrency, double beforeVal, int beforeYear, int afterYear){
 		
 		if (afterYear > beforeYear){
@@ -22,6 +23,7 @@ public class MathObject {
         long tmp = Math.round(value);
         return (double) tmp / factor;
     }
+	//gets the inflation value of the second currency chosen.
 	public double getInflationValue2(double beforeValue, int beforeYear, int afterYear, String currency){
 		CurrencyObject currencyObj = new CurrencyObject();
 		while (beforeYear!=(afterYear)){
@@ -31,6 +33,7 @@ public class MathObject {
 		return beforeValue;
 	}
 	
+	//gets the inflation value of the first currency chosen.
 	public double getInflationValue(double beforeValue, int beforeYear, int afterYear, String currency){
 		CurrencyObject currencyObj = new CurrencyObject();
 		while (beforeYear!=(afterYear)){
